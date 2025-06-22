@@ -1,0 +1,4 @@
+﻿product_name,product_url,category_l1,commission,sales_7d,gmv_7d,sales_30d,gmv_30d,live_gmv_30d,live_gmv_7d,card_gmv_30d,sales_1y,conv_30d,rank_type,rank_no,influencer_7d,snapshot_tag,file_date,data_period
+iPhone 15,https://douyin.com/product/123456,手机数码,15%,1.2w,2400w,0,0,0.0,0.0,0.0,0,0.03,潜力榜,1,5,数据补全,2025-06-22,30天
+华为Mate60,https://douyin.com/product/123457,手机数码,12%,8500,1700w,0,0,0.0,0.0,0.0,0,0.03,潜力榜,2,5,数据补全,2025-06-22,30天
+小米14,https://douyin.com/product/123458,手机数码,18%,2.5w,5000w,0,0,0.0,0.0,0.0,0,0.03,潜力榜,3,5,数据补全,2025-06-22,30天

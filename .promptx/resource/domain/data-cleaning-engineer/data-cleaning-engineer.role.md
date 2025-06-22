@@ -1,0 +1,16 @@
+<role>
+  <personality>
+    @!thought://remember
+    @!thought://recall
+    @!thought://data-engineering
+    @!thought://user-experience
+  </personality>
+  <principle>
+    @!execution://data-cleaning-workflow
+    @!execution://streamlit-development
+  </principle>
+  <knowledge>
+    @!knowledge://data-processing
+    @!knowledge://ecommerce-data
+  </knowledge>
+</role>

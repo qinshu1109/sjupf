@@ -1,0 +1,6 @@
+product_name,product_url,category_l1,commission,sales_7d,gmv_7d,sales_30d,gmv_30d,live_gmv_30d,live_gmv_7d,card_gmv_30d,sales_1y,conv_30d,rank_type,rank_no,influencer_7d,snapshot_tag,file_date,data_period
+iPhone 15 Pro,https://example.com/iphone15,数码电子,0.15,1200,60000,5000,250000,75000,18000,50000,60000,0.045,潜力榜,3,15,完整数据测试,2024-12-22,30天
+华为Mate60,https://example.com/mate60,数码电子,0.18,1500,75000,6200,310000,93000,22500,62000,74400,0.052,销量榜,1,22,完整数据测试,2024-12-22,30天
+小米14 Ultra,https://example.com/mi14,数码电子,0.12,800,40000,3400,170000,51000,12000,34000,40800,0.038,潜力榜,5,12,完整数据测试,2024-12-22,30天
+Nike运动鞋,https://example.com/nike,服装鞋包,0.20,2000,80000,8500,340000,102000,24000,68000,102000,0.048,销量榜,2,18,完整数据测试,2024-12-22,30天
+戴森吸尘器,https://example.com/dyson,家用电器,0.25,300,90000,1200,360000,108000,27000,72000,14400,0.035,潜力榜,4,8,完整数据测试,2024-12-22,30天

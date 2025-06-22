@@ -1,0 +1,6 @@
+product_name,product_url,category_l1,commission,sales_7d,gmv_7d,live_gmv_7d,sales_1y,conv_30d,rank_type,rank_no,influencer_7d,snapshot_tag,file_date,data_period
+Tesla Model Y,https://example.com/tesla,汽车用品,0.05,5,1500000,450000,60,0.015,潜力榜,8,3,仅7天数据,2024-12-22,7天
+Switch游戏机,https://example.com/switch,数码电子,0.10,450,90000,27000,5400,0.035,销量榜,4,18,仅7天数据,2024-12-22,7天
+LV手袋,https://example.com/lv,服装鞋包,0.08,25,125000,37500,300,0.022,其他,15,6,仅7天数据,2024-12-22,7天
+雅诗兰黛套装,https://example.com/estee,美妆个护,0.28,800,80000,24000,9600,0.048,潜力榜,2,20,仅7天数据,2024-12-22,7天
+飞利浦剃须刀,https://example.com/philips,个护健康,0.20,350,35000,10500,4200,0.040,销量榜,5,10,仅7天数据,2024-12-22,7天

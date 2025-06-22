@@ -1,0 +1,181 @@
+{
+  "version": "2.0.0",
+  "source": "project",
+  "metadata": {
+    "version": "2.0.0",
+    "description": "project 级资源注册表",
+    "createdAt": "2025-06-22T07:14:34.010Z",
+    "updatedAt": "2025-06-22T07:14:34.013Z",
+    "resourceCount": 12
+  },
+  "resources": [
+    {
+      "id": "data-cleaning-engineer",
+      "source": "project",
+      "protocol": "role",
+      "name": "Data Cleaning Engineer 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/domain/data-cleaning-engineer/data-cleaning-engineer.role.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.011Z",
+        "updatedAt": "2025-06-22T07:14:34.011Z",
+        "scannedAt": "2025-06-22T07:14:34.011Z"
+      }
+    },
+    {
+      "id": "data-engineering",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Data Engineering 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/data-cleaning-engineer/thought/data-engineering.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.011Z",
+        "updatedAt": "2025-06-22T07:14:34.011Z",
+        "scannedAt": "2025-06-22T07:14:34.011Z"
+      }
+    },
+    {
+      "id": "user-experience",
+      "source": "project",
+      "protocol": "thought",
+      "name": "User Experience 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/data-cleaning-engineer/thought/user-experience.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.011Z",
+        "updatedAt": "2025-06-22T07:14:34.011Z",
+        "scannedAt": "2025-06-22T07:14:34.011Z"
+      }
+    },
+    {
+      "id": "data-cleaning-workflow",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Data Cleaning Workflow 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/data-cleaning-engineer/execution/data-cleaning-workflow.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.012Z",
+        "updatedAt": "2025-06-22T07:14:34.012Z",
+        "scannedAt": "2025-06-22T07:14:34.012Z"
+      }
+    },
+    {
+      "id": "streamlit-development",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Streamlit Development 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/data-cleaning-engineer/execution/streamlit-development.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.012Z",
+        "updatedAt": "2025-06-22T07:14:34.012Z",
+        "scannedAt": "2025-06-22T07:14:34.012Z"
+      }
+    },
+    {
+      "id": "data-processing",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Data Processing 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/data-cleaning-engineer/knowledge/data-processing.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.012Z",
+        "updatedAt": "2025-06-22T07:14:34.012Z",
+        "scannedAt": "2025-06-22T07:14:34.012Z"
+      }
+    },
+    {
+      "id": "ecommerce-data",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Ecommerce Data 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/data-cleaning-engineer/knowledge/ecommerce-data.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.012Z",
+        "updatedAt": "2025-06-22T07:14:34.012Z",
+        "scannedAt": "2025-06-22T07:14:34.012Z"
+      }
+    },
+    {
+      "id": "data-filter-expert",
+      "source": "project",
+      "protocol": "role",
+      "name": "Data Filter Expert 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/domain/data-filter-expert/data-filter-expert.role.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.012Z",
+        "updatedAt": "2025-06-22T07:14:34.012Z",
+        "scannedAt": "2025-06-22T07:14:34.012Z"
+      }
+    },
+    {
+      "id": "data-filtering",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Data Filtering 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/data-filter-expert/thought/data-filtering.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.012Z",
+        "updatedAt": "2025-06-22T07:14:34.012Z",
+        "scannedAt": "2025-06-22T07:14:34.012Z"
+      }
+    },
+    {
+      "id": "data-filtering-workflow",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Data Filtering Workflow 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/data-filter-expert/execution/data-filtering-workflow.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.012Z",
+        "updatedAt": "2025-06-22T07:14:34.012Z",
+        "scannedAt": "2025-06-22T07:14:34.012Z"
+      }
+    },
+    {
+      "id": "data-filtering-algorithms",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Data Filtering Algorithms 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/data-filter-expert/knowledge/data-filtering-algorithms.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.013Z",
+        "updatedAt": "2025-06-22T07:14:34.013Z",
+        "scannedAt": "2025-06-22T07:14:34.013Z"
+      }
+    },
+    {
+      "id": "ecommerce-scoring",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Ecommerce Scoring 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/data-filter-expert/knowledge/ecommerce-scoring.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-22T07:14:34.013Z",
+        "updatedAt": "2025-06-22T07:14:34.013Z",
+        "scannedAt": "2025-06-22T07:14:34.013Z"
+      }
+    }
+  ],
+  "stats": {
+    "totalResources": 12,
+    "byProtocol": {
+      "role": 2,
+      "thought": 3,
+      "execution": 3,
+      "knowledge": 4
+    },
+    "bySource": {
+      "project": 12
+    }
+  }
+}

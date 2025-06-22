@@ -1,0 +1,20 @@
+# 抖音电商数据清洗工具依赖包
+# 核心框架
+streamlit>=1.32.0
+
+# 数据处理
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Excel文件处理
+openpyxl>=3.0.0
+
+# 进度条显示
+tqdm>=4.64.0
+
+# 文件类型检测（可选）
+python-magic-bin>=0.4.14; platform_system=="Windows"
+python-magic>=0.4.24; platform_system!="Windows"
+
+# 其他工具库
+typing-extensions>=4.0.0

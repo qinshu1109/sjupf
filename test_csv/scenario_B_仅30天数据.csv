@@ -1,0 +1,6 @@
+product_name,product_url,category_l1,commission,sales_30d,gmv_30d,live_gmv_30d,card_gmv_30d,sales_1y,conv_30d,rank_type,rank_no,influencer_7d,snapshot_tag,file_date,data_period
+MacBook Pro,https://example.com/macbook,数码电子,0.08,150,450000,135000,90000,1800,0.025,潜力榜,6,5,仅30天数据,2024-12-22,30天
+iPad Air,https://example.com/ipad,数码电子,0.12,800,160000,48000,32000,9600,0.042,销量榜,3,12,仅30天数据,2024-12-22,30天
+AirPods Pro,https://example.com/airpods,数码电子,0.15,2200,330000,99000,66000,26400,0.055,销量榜,1,25,仅30天数据,2024-12-22,30天
+Adidas运动服,https://example.com/adidas,服装鞋包,0.22,1800,180000,54000,36000,21600,0.038,潜力榜,7,15,仅30天数据,2024-12-22,30天
+美的空调,https://example.com/midea,家用电器,0.18,120,240000,72000,48000,1440,0.028,其他,12,8,仅30天数据,2024-12-22,30天

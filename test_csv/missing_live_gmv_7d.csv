@@ -1,0 +1,6 @@
+product_name,product_url,category_l1,commission,sales_30d,gmv_30d,live_gmv_30d,card_gmv_30d,sales_1y,conv_30d,rank_type,rank_no,influencer_7d,snapshot_tag,file_date,data_period
+iPhone 15 Pro Max,https://example.com/iphone15pro,数码电子,0.15,5000,250000,75000,50000,60000,0.045,潜力榜,3,15,缺失live_gmv_7d测试,2024-12-22,30天
+华为Mate60 Pro,https://example.com/mate60pro,数码电子,0.18,6200,310000,93000,62000,74400,0.052,销量榜,1,22,缺失live_gmv_7d测试,2024-12-22,30天
+小米14 Ultra,https://example.com/mi14ultra,数码电子,0.12,3400,170000,51000,34000,40800,0.038,潜力榜,5,12,缺失live_gmv_7d测试,2024-12-22,30天
+MacBook Pro M3,https://example.com/macbookpro,数码电子,0.08,150,450000,135000,90000,1800,0.025,潜力榜,6,5,缺失live_gmv_7d测试,2024-12-22,30天
+iPad Pro 12.9,https://example.com/ipadpro,数码电子,0.12,800,160000,48000,32000,9600,0.042,销量榜,3,12,缺失live_gmv_7d测试,2024-12-22,30天
