@@ -413,12 +413,36 @@ def process_single_file(df, file_date, is_holiday_mode):
         else:
             df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
 
-    # 转化率过滤
-    conv_score, valid_mask = filter_and_score_conversion(df['conv_30d'])
-    df = df[valid_mask].copy()
+    # 转化率过滤（优化过滤逻辑）
+    if 'conv_30d' in df.columns and df['conv_30d'].notna().any():
+        # 只有当转化率列存在且有有效数据时才进行过滤
+        conv_score, valid_mask = filter_and_score_conversion(df['conv_30d'])
+
+        # 检查过滤后是否还有数据
+        if valid_mask.sum() == 0:
+            print("⚠️ 转化率过滤过于严格，放宽过滤条件")
+            # 放宽过滤条件：转化率 >= 0.01 或使用所有数据
+            relaxed_mask = df['conv_30d'] >= 0.01
+            if relaxed_mask.sum() > 0:
+                df = df[relaxed_mask].copy()
+                # 重新计算conv_score以确保索引匹配
+                conv_score = df['conv_30d'].clip(0, 0.2) / 0.2 * 0.08
+                print(f"📊 使用放宽条件：转化率 >= 0.01，保留 {len(df)} 行数据")
+            else:
+                print("📊 使用所有数据，不进行转化率过滤")
+                # 不过滤数据，重新计算conv_score
+                conv_score = df['conv_30d'].clip(0, 0.2) / 0.2 * 0.08
+        else:
+            df = df[valid_mask].copy()
+            # 重新计算conv_score以确保索引匹配
+            conv_score = df['conv_30d'].clip(0, 0.2) / 0.2 * 0.08
+            print(f"📊 转化率过滤：保留 {len(df)} 行数据（转化率 >= 0.02）")
+    else:
+        print("📊 转化率列缺失或无有效数据，使用默认转化率评分")
+        conv_score = pd.Series(0.04, index=df.index)  # 默认中等转化率评分
 
     if len(df) == 0:
-        print("⚠️ 转化率过滤后无有效数据")
+        print("⚠️ 数据过滤后无有效数据")
         return pd.DataFrame()
 
     # 计算各维度得分（仅计算存在的字段）
@@ -467,7 +491,7 @@ def process_single_file(df, file_date, is_holiday_mode):
         df['gmv_30d'], df['gmv_7d']
     )
 
-    df['conv_score'] = conv_score[valid_mask]
+    df['conv_score'] = conv_score
 
     # 使用调整后的权重计算总分
     df['total_score'] = calculate_total_score(df, adjusted_weights)
